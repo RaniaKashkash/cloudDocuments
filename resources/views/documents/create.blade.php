@@ -16,8 +16,12 @@
           </ol>
           <h6 class="font-weight-bolder text-white mb-0">Upload new document</h6>
         </nav>
+        @include('includes.logout')
+
       </div>
     </nav>
+
+
 
     <!-- ^ Search,upload file icons -->
     <div class="container-fluid py-4">

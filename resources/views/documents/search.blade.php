@@ -16,8 +16,11 @@
           </ol>
           <h6 class="font-weight-bolder text-white mb-0">Searching for a word</h6>
         </nav>
+        @include('includes.logout')
+
       </div> 
     </nav>
+
 
     <!-- ^ Search -->
     <div class="container">

@@ -16,6 +16,7 @@
           </ol>
           <h6 class="font-weight-bolder text-white mb-0">Dashboard</h6>
         </nav>
+      @include('includes.logout')
       </div>
     </nav>
 
@@ -24,13 +25,11 @@
               <div class="row justify-content-center">
                   <div class="col-md-3">
                     <div class="card">
-                      <a class="text-decoration-none fw-bolder" href="http://localhost:8000/documents/create">                          
+                      <a class="text-decoration-none fw-bolder" href="{{ route('documents.create') }}">                          
                              
                       <div class="card-header mx-4 p-3 d-flex justify-content-center">
                         <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                            
                               <i class="fa-solid fa-cloud-arrow-up"></i>
-                           
                         </div>
                       </div>
                       <div class="card-body pt-0 p-3 text-center">

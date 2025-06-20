@@ -13,7 +13,9 @@ class DatabaseSeeder extends Seeder
     {
         // استدعاء Seeder التصنيفات
         $this->call([
-            CategorySeeder::class,
+            CategorySeeder::class
+            ,
+            UserSeeder::class
         ]);
     }
 }
